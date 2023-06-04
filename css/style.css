@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@100;300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  padding: 15px 0px;
+  margin-right: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  outline: none;
+}
+
+.nav-link a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.nav-link a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.nav-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  border-radius: 50%;
+  padding: 8px;
+  width: 40px;
+  height: 40px;
+}
+
+.nav-icon:hover {
+  cursor: pointer;
+  background-color: rgba(240, 240, 240, 1);
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo {
+  min-height: 200px;
+  justify-content: flex-end;
+  align-items: flex-end;
+  display: flex;
+  margin-bottom: 38px;
+}
+
+.logo img {
+  width: 272px;
+  height: 92px;
+}
+
+.input-form {
+    outline: 0;
+    border: none;
+    position: relative;
+    margin-bottom: 34px;
+}
+
+.icon-left {
+    position: absolute;
+    top: 12px;
+    left: 15px;
+    font-size: 14px;
+    color: #5f6368;
+}
+
+.icon-right {
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    font-size: 14px;
+    color: #5f6368;
+}
+
+.icon-right:hover {
+    cursor: pointer;
+}
+
+.input-form input {
+    box-shadow: 0 1px 6px 0 #20212447;
+    outline: none;
+    border: none;
+    width: 561px;
+    height: 41px;
+    border-radius: 22px;
+    padding: 1px 51px 1px 50px;
+    
+}
+
+.container {
+    width: 465px;
+    height: 228px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap ;
+    list-style-type: none;
+}
+
+.list {
+    width: 112px;
+    height: 112px;
+    
+}
+
+.list:hover {
+    background-color: rgba(232, 232, 232, 1);
+    border-radius: 6px;
+}
+
+.list a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.title-icon {
+    width: 48px;
+    height: 48px;
+    background-color: rgba(240, 240, 240, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 22px;
+    margin-top: 15px;
+
+}
+
+
+.title-icon img {
+    width: 24px;
+    height: 24px;
+}
+
+.number {
+    color: white ;
+    padding-top: 2px;
+    margin-top: 18px;
+    font-size: 14px;
+    width: 100%;
+    height: 100% ;
+}
