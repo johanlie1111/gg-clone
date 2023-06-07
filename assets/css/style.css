@@ -92,6 +92,10 @@ section {
   color: #5f6368;
 }
 
+.red.icon-right  {
+  color: red;
+}
+
 .icon-right:hover {
   cursor: pointer;
 }
@@ -208,7 +212,7 @@ ul {
   header {
     margin-left: 340px;
     transition: 0.7s;
-  
+    display: none;
   }
   .container {
     display: none;
